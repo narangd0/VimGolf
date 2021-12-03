@@ -66,6 +66,22 @@
 
 
 ## VimGolf #4
+![vimgolf-4](https://user-images.githubusercontent.com/94420917/144665991-3905cf3a-dee0-425e-ab0d-beacd1fd7a22.gif)
+
+
+<img width="617" alt="vimgolf-4" src="https://user-images.githubusercontent.com/94420917/144666010-6af9db1b-22aa-476d-91a2-307e844878f0.png">
+
+:%s/y1/abs(y1)/g< CR >/1< CR >r4nr4nr4Nr3Nr3Nr3Nr2Nr2Nr2/k< CR >rbnrrnrgZZ
+
+ * Ctrl + v : 비주얼 블록 모드, 윈도우에서는 붙여넣기 단축키와 동일하여 Ctrl + q 가 디폴트이다. (그런데 해도 블록 모드가 설정되지 않아 여러 케이스를 실행해보지 못했다.)
+
+  :%s/y1/abs(y1)/g : 문서 내 모든 y1 단어를 abs(y1)으로 변경
+  
+  /1 : 1 단어를 검색
+  
+  r : 한 글자만 변경, 한 글자만 변경한 후 일반 모드
+  
+  n : 정방향으로 검색 반복 진행 (N 은 역방향으로 검색)
 
 ## VimGolf #5
 ![vimgolf-5](https://user-images.githubusercontent.com/94420917/144642803-5c73ccca-34b9-4bcb-9dc5-2df8be84f5af.gif)
