@@ -19,9 +19,24 @@
   ZZ : (:wq와 동일) 저장하고 나가기
 
 
-## VimGolf #2
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/94420917/144633897-1e607105-ea6f-4d1b-8467-ad3d06c9c6a7.gif)
 
+
+## VimGolf #2
+![vimgolf-2](https://user-images.githubusercontent.com/94420917/144652531-2ec6766e-d4bf-4993-8356-f0f1fbf59d4e.gif)
+
+
+<img width="655" alt="vimgolf-2" src="https://user-images.githubusercontent.com/94420917/144652568-8783753f-65aa-4bd5-a215-bd27ec84ad24.png">
+
+> wcevim< Esc >:%s/emavs/vim/g<CR>ZZ
+  
+  w : 다음 단어의 처음으로 이동
+  
+  ce : 현재 커서 단어의 다음 단어까지 삭제하고 입력 모드
+  
+  %s/str/replace/g : str 단어를 replace로 치환
+
+  
+  
 
 ## VimGolf #3
 ![vimgolf-3](https://user-images.githubusercontent.com/94420917/144634305-207becef-b6df-4e69-a096-82ef7d8c1e34.gif)
