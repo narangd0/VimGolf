@@ -39,7 +39,30 @@
   
 
 ## VimGolf #3
-![vimgolf-3](https://user-images.githubusercontent.com/94420917/144634305-207becef-b6df-4e69-a096-82ef7d8c1e34.gif)
+![vimgolf-3](https://user-images.githubusercontent.com/94420917/144655091-9d282ac7-2861-4978-bb11-e279593c613f.gif)
+
+<img width="627" alt="vimgolf-3" src="https://user-images.githubusercontent.com/94420917/144655205-30035036-e5e6-4c81-90ab-0b7b68793ac0.png">
+  
+> /V< CR >O// < C-N > TODO< Esc >yyjpwcw< C-N >< C-N >< Esc >ZZ
+  
+  /V : 'V' 단어 검색
+  
+  < CR > : Enter. 줄바꿈 또는 현재 상태 적용
+    
+  O : 현재 라인을 다음 줄로 밀고 입력 모드
+    
+  < C-N > : insert mode에서 사용. 자동 완성 (Ctrl + p 는 버퍼에서 뒤로 검색, Ctrl + n 은 앞으로 검색)
+    
+  yy : 현재 라인 복사
+    
+  j : 커서 아래로 이동
+    
+  p : 현재 위치 다음에 붙여넣기
+    
+  w : 다음 단어의 처음으로 이동
+    
+  cw : 현재 커서 단어의 다음 시작까지 삭제하고 입력 모드
+  
 
 
 ## VimGolf #4
