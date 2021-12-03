@@ -4,10 +4,19 @@
 
 <img width="626" alt="vimgolf-1" src="https://user-images.githubusercontent.com/94420917/144644521-f94d298c-38ef-4ff6-8e54-d910c849cede.png">
 
-GWi"<End><C-@>ZZ
-G : 문서 마지막 라인으로 이동
-W : 다음 단어 처음으로 이동
-<C-@> : 직전에 입력한 단어를 삽입하고 입력 모드 종료
+> GWi"< End ><C-@>ZZ
+
+  G : 문서 마지막 라인으로 이동
+
+  W : 다음 단어 처음으로 이동
+  
+  i : inseart mode
+  
+  < End > : ($와 동일) 라인의 끝으로 이동
+
+  <C-@> : 직전에 입력한 단어를 삽입하고 입력 모드 종료
+    
+  ZZ : (:wq와 동일) 저장하고 나가기
 
 
 ## VimGolf #2
